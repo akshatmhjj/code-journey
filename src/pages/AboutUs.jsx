@@ -1,6 +1,6 @@
 import React from "react";
-import Silk from "../components/Silk";
 import TypeText from "../components/Blurtext";
+import Aurora from "../components/Aurora";
 import {
   Target,
   Lightbulb,
@@ -51,12 +51,11 @@ const About = () => {
   return (
     <>
       <div className="fixed inset-0 -z-10">
-        <Silk
-          speed={3.5}
-          scale={1}
-          color="#4f4e52ff"
-          noiseIntensity={0.25}
-          rotation={2.6}
+        <Aurora
+          colorStops={["#7CFF67", "#B19EEF", "#5227FF"]}
+          blend={0.5}
+          amplitude={1.0}
+          speed={0.5}
         />
       </div>
 
