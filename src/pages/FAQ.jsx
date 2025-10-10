@@ -52,7 +52,7 @@ const faqs = [
 function FAQ() {
     return (
         <div className="relative w-full min-h-screen bg-black text-white overflow-hidden">
-            <div className="absolute inset-0 z-0">
+            <div className="fixed inset-0 z-0">
                 <LightRays
                     raysOrigin="top-center"
                     raysColor="#6a6e6eff"

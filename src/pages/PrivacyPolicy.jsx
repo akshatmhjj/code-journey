@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
                     <section>
                         <h2 className="text-3xl font-semibold mb-6 text-gray-300/60">Your Rights</h2>
                         <p>
-                            You have the right to access, modify, or delete your personal information. To exercise these rights, contact our support team at <span className="text-cyan-400">support@codejourney.com</span>, and we will assist you promptly.
+                            You have the right to access, modify, or delete your personal information. To exercise these rights, contact our support team at <span className="text-cyan-400">work.codejourney@gmail.com</span>, and we will assist you promptly.
                         </p>
                     </section>
 
