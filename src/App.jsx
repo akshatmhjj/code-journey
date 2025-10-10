@@ -7,6 +7,9 @@ import Faq from './pages/FAQ';
 import Terms from './pages/T&C';
 import Licensing from './pages/Licensing';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import VerifyOtp from './pages/OtpVerification';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/licensing" element={<Licensing />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/verify-otp" element={<VerifyOtp />} />
         </Routes>
       </Layout>
     </Router>
