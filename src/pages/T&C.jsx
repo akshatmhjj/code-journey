@@ -159,7 +159,7 @@ export default function Terms() {
                         <p>
                             For inquiries, clarifications, or feedback regarding these Terms,
                             please contact our support team at{" "}
-                            <span className="text-cyan-400">support@codejourney.com</span>.
+                            <span className="text-cyan-400">work.codejourney@gmail.com</span>.
                         </p>
                     </section>
                 </div>
